@@ -1,0 +1,163 @@
+var config = {
+  style: "mapbox://styles/kcdeleon/ckoozq39r1wgp17p5hbwzm0la",
+  accessToken:
+    "pk.eyJ1Ijoia2NkZWxlb24iLCJhIjoiY2tvb3psZXMwMGR5cjJ3bWxnNnV2bnV6OCJ9.ekoUzBcoU0i8o0SYg0pflA",
+  showMarkers: true,
+  theme: "dark",
+  alignment: "left",
+  title: "Holiday pop-ups and markets in Portland",
+  chapters: [
+    {
+      id: "chap-1",
+
+      description:
+        "For those looking to skip the big-box stores and online shopping shipping delays this year, here are some holiday pop-ups and markets to check out to find that perfect gift.",
+      location: {
+        center: [-122.6790585, 45.5205121],
+        zoom: 11,
+        pitch: 0,
+        bearing: 18.0
+      },
+      onChapterEnter: [
+        // {
+        //     layer: 'layer-name',
+        //     opacity: 1
+        // }
+      ],
+      onChapterExit: [
+        // {
+        //     layer: 'layer-name',
+        //     opacity: 0
+        // }
+      ]
+    },
+    {
+      id: "chap-2",
+      title: "Native Made Winter Marketplace",
+      address: "4636 N.E. 42nd Ave.",
+      subtitle: "11 a.m.–5 p.m. on Dec. 17-18",
+      //image: "./path/to/image/source.png",
+      description: "Hosted by the Native American Youth and Family Center, this holiday pop-up supports Native artists, makers and vendors. Shoppers can find jewelry, clothing, crafts, prints and more.",
+      location: {
+        center: { lon: -122.6200025, lat: 45.5572083 },
+        zoom: 19.00,
+        pitch: 60.00,
+        bearing: -124.80
+      },
+      onChapterEnter: [],
+      onChapterExit: []
+    },
+    {
+      id: "chap-3",
+      title: "Portland Bazaar",
+      address: "Premier Gear & Machine Works Building, 1715 N.W. 17th Ave.",
+      subtitle: "11 a.m.–4 p.m. on Dec. 17-18",
+     // image: "./path/to/image/source.png",
+      description: "Located at the Premier Gear & Machine Works Building in the Northwest District, the Portland Bazaar features more than 160 local makers, designers and retailers.",
+      location: {
+        center: { lon: -122.6886525, lat: 45.5356514 },
+        zoom: 16.00,
+        pitch: 60.00,
+        bearing: 138.40
+      },
+      onChapterEnter: [],
+      onChapterExit: []
+    },
+    {
+      id: "chap-4",
+      title: "The Makers Fair Holiday Market",
+      address: "Hammer & Stitch Brewing Co., 2377 N.W. Wilson St.",
+      subtitle: "12–6 p.m. on Dec. 17",
+      //image: "./path/to/image/source.png",
+      description: "Held inside Hammer & Stitch Brewing Company, the Makers Fair will feature 10 local artisans selling goods, including Landia Skincare, Dapper Bear Candle Company, Wag Theory, Catherine Chandler Jewelry + Objects and others.",
+      location: {
+        center: { lon: -122.7002893, lat: 45.5378595 },
+        zoom: 18.20,
+        pitch: 60.00,
+        bearing: 28.00
+      },
+      onChapterEnter: [],
+      onChapterExit: []
+    },
+    {
+      id: "chap-5",
+      title: "Mimi's Fresh Tees Holiday Collection",
+      address: "730 S.W. 10th Ave., next to Compound",
+      subtitle: "11 a.m.–6 p.m. Monday–Saturday through Dec. 31",
+     // image: "./path/to/image/source.png",
+      description: "This holiday season, Mimi’s Fresh Tees is hosting a holiday pop-up showcasing goods from BIPOC women-owned businesses in Portland.",
+      location: {
+        center: { lon: -122.681818, lat: 45.5195453 },
+        zoom: 15.00,
+        pitch: 60.00,
+        bearing: 24.80
+      },
+      onChapterEnter: [],
+      onChapterExit: []
+    },
+    {
+      id: "chap-6",
+      title: "Ceramic Northwest",
+      address: "300 S.W. Yamhill St.",
+      subtitle: "11 a.m.–6 p.m. Tuesday–Sunday, through Dec 31 (closed Christmas Day)",
+    //  image: "./path/to/image/source.png",
+      description: "Hosted by the nonprofit Oregon Potters Association, this holiday pop-up features handmade ceramic creations of over 40 artists from the region.",
+      location: {
+        center: { lon: -122.6763302, lat: 45.5175096 },
+        zoom: 16.00,
+        pitch: 0.00,
+        bearing: 152.00
+      },
+      onChapterEnter: [],
+      onChapterExit: []
+    },
+    {
+      id: "chap-7",
+      title: "Omiyage Holiday Store",
+      address: "Japanese American Museum of Oregon, 411 N.W. Flanders St.",
+      subtitle: "11 a.m.–3 p.m. Thursday–Sunday through Dec. 19, and Tuesday–Friday Dec. 20–23",
+   //   image: "./path/to/image/source.png",
+      description: "Hosted by the Japanese American Museum of Oregon in Old Town, this holiday pop-up features Japanese-inspired items from local makers, including jewelry, home accessories, cards, origami creations, and books, as well as some curated vintage items.",
+      location: {
+        center: { lon: -122.6747622, lat: 45.5262116 },
+        zoom: 17.00,
+        pitch: 60.00,
+        bearing: 73.60
+      },
+      onChapterEnter: [],
+      onChapterExit: []
+    },
+    {
+      id: "chap-8",
+      title: "Unordinary Makers Market",
+      address: "Commonwealth Building, 421 S.W. 6th Ave.",
+      subtitle: "10 a.m.–6 p.m. Monday-Sunday through Dec. 30",
+   //   image: "./path/to/image/source.png",
+      description: "A curated retail space featuring goods by local artists, makers and retailers, including Sasquatch Botanicals, Birds and Bees Nursery, Niyyah Handcrafted, La Tienda Del Sol and more.",
+      location: {
+        center: { lon: -122.678089, lat: 45.5207903 },
+        zoom: 16.00,
+        pitch: 0.00,
+        bearing: 88.00
+      },
+      onChapterEnter: [],
+      onChapterExit: []
+    },
+    {
+      id: "chap-9",
+      title: "PDX Urban Wineries",
+      address: "Director Park, 815 S.W. Park Ave.",
+      subtitle: "11 a.m.-6 p.m. Tuesday-Sunday through Dec. 30; 11 a.m.-3 p.m. on Christmas Eve",
+  //    image: "./path/to/image/source.png",
+      description: "PDX Urban Wineries is an association of 16 urban wineries operating within the city limits of Portland. This holiday pop-up allows shoppers to taste and shop for different wines from the association's member wineries.",
+      location: {
+        center: { lon: -122.6814688, lat: 45.5186898 },
+        zoom: 16.00,
+        pitch: 60.00,
+        bearing: 59.20
+      },
+      onChapterEnter: [],
+      onChapterExit: []
+    }
+  ]
+};
